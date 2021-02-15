@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no viewport-fit=cover, shrink-to-fit=no">
 
 @if (isset($title))
   <title>{{$title}} - Computerun 2020: INSIGHT</title>
@@ -14,7 +14,6 @@
 @endif
 
 <!-- Primary Meta Tags -->
-<meta name="title" content="{{$title ?? ''}}Computerun 2020: INSIGHT">
 <meta name="description" content="Organized by HIMTI and HIMSISFO BINUS UNIVERSITY">
 
 <!-- Open Graph / Facebook -->
@@ -32,7 +31,8 @@
 <!-- CSS -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
-<link href="/css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="/css/index.css" type="text/css" rel="stylesheet"/>
+<link href="/fonts/fonts.css" type="text/css" rel="stylesheet"/>
 
 <!-- Web Manifest, Icons, and PWA -->
 <link rel="manifest" href="/manifest.json">
@@ -50,6 +50,9 @@
 <link rel="apple-touch-icon" type="image/png" sizes="512x512" href="/img/main-512.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/img/main-192.png">
 <link rel="apple-touch-icon" type="image/png" sizes="192x192" href="/img/main-192.png">
+
+<!-- Prevent phone number linking in iOS -->
+<meta name="format-detection" content="telephone=no">
 
 <!-- Add support for custom external CSS files -->
 @if (isset($custom_css) && is_array($custom_css))

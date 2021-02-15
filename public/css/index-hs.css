@@ -1,0 +1,581 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  .navbar{
+      background-color: #333745;
+  }
+  
+  .navbar-brand{
+      margin-left: 4%;
+  }
+  
+  .nav-link{
+      margin-right: 20px;
+      color: white !important;
+      font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+  }
+  
+  .collapse{
+      margin-right: 4%;
+  }
+  
+  .navbar_img{
+      width: 6%;
+      height: 6%;
+      margin-bottom: -1%; 
+  }
+  
+  .background-coming-soon{
+    background-color: black;
+  }
+  
+  .comingSoon{
+    /* background-color: black; */
+    content: url(../Assets/Coming_Soon/comingSoon.png);
+    width: 100%;
+    /* min-height: 850px; */
+    /* background-repeat: no-repeat; */
+    display: block;
+  }
+  
+  .button-container{
+      background-image: url(../Assets/HomePage/border\ start\ and\ regist.png);
+      background-size: 100% 100%;
+      width: 360px;
+      height: 100px;
+      padding-top: 29px;
+      padding-bottom: 17px;
+      padding-left: 43px;
+      padding-right: 40px;
+      position: absolute;
+      top: 60.5%;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+  }
+  
+  @media only screen and (max-width: 769px){
+      .button-container{
+          width: 270px;
+          height: 60px;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          padding-left: 52px;
+          padding-right: 50px;
+      }
+  
+      .right{
+          display: flex;
+          margin-right: 19%;
+          margin-top: 27%;
+          margin-bottom: auto;
+      }
+      
+      .see-more{
+          border-width: 2px;
+          border-color: #333745;
+          color: #333745;
+          font-size: 10px;
+          font-weight: bolder;
+          width: 10%;
+          height: 10px;
+      }
+  
+      
+  }
+  
+  .button-container a button {
+      border-width: 2px;
+      border-radius: 0%;
+      display: inline;
+      width: calc(50% - 2.5px);
+  }
+  
+  .carousel-indicators .active {
+    background-color: #589b9b;
+  }
+  
+  .carousel-indicators li{
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: grey;
+  }
+  
+  .carousel-control-prev{
+      margin-left: 12%;
+      margin-bottom: 10%;
+  }
+  .carousel-control-prev-icon{
+      background-image: url(../Assets/HomePage/arah\ kiri.png);
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 10%;
+      height: 5%;
+  }
+  
+  .carousel-control-next{
+      margin-right: 9%;
+      margin-bottom: 10%;
+  }
+  .carousel-control-next-icon{
+      background-image: url(../Assets/HomePage/arah\ kanan.png);
+      width: 10%;
+      height: 5%;
+  }
+  
+  .left{
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .trailer{
+      max-width: 41%;
+      margin-left: 15%;
+      margin-top: 30%;
+      margin-bottom: 40%;
+      width: unset;
+      /* height: 1;*/
+  }
+  
+  .right{
+      display: flex;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 27%;
+      margin-bottom: auto;
+  }
+  
+  .see-more{
+      border-width: 2px;
+      border-color: #333745;
+      color: #333745;
+      font-weight: bolder;
+      width: 200px;
+      height: 50px;
+  }
+  
+  #event {
+    background-image: url(../Assets/eventseminar/bgeventedited.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .heading h1{
+    font-family: Nasalization;
+    font-size: 100px;
+  }
+  
+  .heading h3{
+    font-family: Nasalization;
+    font-size: 50px;
+    margin-top: 5%;
+  }
+
+  .stln h3{
+    font-family: Nasalization;
+    font-size: 50px;
+  }
+  
+  .stdn h3{
+    font-family: Nasalization;
+    font-size: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+  }
+  
+  .stdn-text{
+    font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+    font-size: 25px;
+    margin-left: 0%;
+    position: justify;
+  }
+  
+  .text{
+    font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+    font-size: 25px;
+    margin-left: 42%;
+    position: justify;
+  }
+  
+  .event-seminar{
+    width: 75%;
+    margin-top: 10%;
+  }
+  
+  .event-workshop{
+    width: 75%;
+    margin-top: 10%;
+  }
+  
+  .event-stdn{
+    width: 90%;
+    height: auto;
+    margin-top: 10%;
+  }
+  
+  .text-stdn{
+    font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+    font-size: 25px;
+    position: justify;
+  }
+  
+  .glyphicon.glyphicon-chevron-right::before{
+    cursor: pointer;
+    content: url(../Assets/Event/arah\ kiri.png);
+    scroll-behavior: smooth;
+  }
+  
+  .glyphicon.glyphicon-chevron-left::after{
+    cursor: pointer;
+    content: url(../Assets/Event/arah\ kanan.png);
+    scroll-behavior: smooth;
+  
+  }
+  
+  
+  #ourloc {
+    background-image: url(../Assets/assetourlocation/ourlocbg.png);
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+  }
+  
+  .hishotig {
+    background-image: url(../Assets/assetourlocation/igcropped.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #sponsor {
+    width: 100%;
+    min-height: 120vh;
+    padding: 2em 0;
+    background-size: 38em;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .img-corner{
+    opacity: 0.7;
+    z-index: 1;
+    max-width: 15em;
+    max-height: 25em;
+  }
+  
+  .img-corner.upper{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .img-corner.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .daftar-sponsor h1 {
+    color: darkgray;
+    font-size: 50px;
+    font-family: Nasalization;
+    margin-top: -80%;
+  }
+  
+  .daftar-medpar h1 {
+    color: darkgray;
+    font-size: 50px;
+    font-family: Nasalization;
+    margin-top: -41%;
+  }
+  
+  .input {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  ::placeholder {
+    color: whitesmoke;
+  }
+  button {
+    background-color: turquoise;
+    color: white;
+  }
+  
+  /* Desktop Version */
+  
+  @media only screen and (min-width: 992px) {
+    #event {
+      height: 850px;
+      background-size: cover;
+    }
+  
+    .stdn {
+      font-size: 20px;
+    }
+    iframe {
+      height: 400px;
+      width: 400px;
+    }
+  }
+  
+  #about-us {
+    width: 100%;
+    min-height: 80vh;
+    padding: 5em 0;
+    background-image: url(../Assets/Trailer/background\ robot.png);
+    background-size: 38em;
+    background-repeat: no-repeat;
+    background-position: 90% 90%;
+    background-color: #f2f2f2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 17em;
+    margin: 2em auto;
+  }
+  
+  .img-content-ignite{
+   max-width: 11em;
+   margin-bottom: 1em;
+  }
+  
+  .img-content-text{
+    max-width: 17em;
+  }
+  
+  .about-us-item{
+    z-index: 2;
+    position: relative;
+    height: 100%;
+    top: 50;
+  }
+  
+  .img-elem {
+    opacity: 0.7;
+    z-index: 1;
+    max-width: 20em;
+    max-height: 30em;
+  }
+  
+  .img-elem.upper{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .img-elem.bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    max-width: 799.265px;
+    transform: scale(.8);
+  }
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #get-in-touch {
+    background-image: url(../Assets/assetgetintouchandouraddress/backgroundgetintouch.jpg);
+    width: 100%;
+    min-height: 900px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 480px){
+    .comingSoon{
+      content: url(../Assets/Coming_Soon/comingSoon.png);
+      width: 100%;
+      display: block;
+    }
+  
+    .carousel-control-prev{
+      margin-left: 8%;
+      margin-bottom: 15%;
+    }
+    .carousel-control-prev-icon{
+      background-image: url(../Assets/HomePage/arah\ kiri.png);
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 20%;
+      height: 10%;
+    }
+  
+    .carousel-control-next{
+      margin-right: 5%;
+      margin-bottom: 15%;
+    }
+    .carousel-control-next-icon{
+      background-image: url(../Assets/HomePage/arah\ kanan.png);
+      width: 20%;
+      height: 10%;
+    }
+  
+    .img-elem{
+      max-width: 12em;
+      max-height: 26em;
+    }
+  
+    .iframe-container {
+      transform: scale(1);
+    }
+  
+    .heading h1{
+      font-family: Nasalization;
+      font-size: 70px;
+    }
+  
+    .heading h3{
+      font-family: Nasalization;
+      font-size: 30px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: -20%;
+    }
+
+    .stln h3{
+      font-family: Nasalization;
+      font-size: 30px;
+      margin-right: auto;
+      margin-left: 2%;
+      margin-top: -20%;
+    }
+  
+    .stdn h3{
+      font-family: Nasalization;
+      font-size: 30px;
+      margin-right: auto;
+      margin-left: 2%;
+      margin-top: -20%;
+    }
+  
+    .stdn-text{
+      font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+      margin-left: 5%;
+      font-size: 18px;
+    }
+  
+    .text{
+      font-family: Bahnschrift, DINAlternate-Bold, Gidole, sans-serif;
+      margin-left: 5%;
+      font-size: 18px;
+    }
+  
+    .glyphicon.glyphicon-chevron-right::before{
+      cursor: pointer;
+      content: url(../Assets/Event/arah\ kiri\ kecil.png);
+    }
+    
+    .glyphicon.glyphicon-chevron-left::after{
+      cursor: pointer;
+      content: url(../Assets/Event/arah\ kanan\ kecil.png);
+    }
+  
+    .event-seminar{
+      width: 70%;
+    }
+    
+    .event-workshop{
+      width: 70%;
+      padding-top: -20%;
+    }
+  
+    .daftar-sponsor h1{
+      font-family: Nasalization;
+      font-size: 30px;
+      margin-top: 0%;
+    }
+  
+    .daftar-medpar h1{
+      font-family: Nasalization;
+      font-size: 30px;
+      margin-top: 8%;
+    }
+  
+    #get-in-touch {
+      background-image: url(../Assets/assetgetintouchandouraddress/backgroundgetintouch.png);
+      width: 100%;
+      min-height: 900px;
+      background-size: cover;
+      background-position: 40% 50%;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
+  .img-content-event{
+    max-width: 23em;
+    margin: auto;
+  }
+  
+  .container-coating{
+    width: 100%;
+  }
+  .container-form-modified {
+    max-width: 420px;
+  }
+  .container-form-modified > .row > * {
+    margin: .2em 0;
+  }
+  
+  .social-media-container {
+    max-width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 0.5em 0.2em;
+  }
+  
+  .social-media-container > img {
+    max-width: 3em;
+    margin-right: 1em;
+  }
+  
+  .img-location {
+    max-width: 2em;
+    margin: 1em 0;
+  }

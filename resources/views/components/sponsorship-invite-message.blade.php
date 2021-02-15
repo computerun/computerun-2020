@@ -12,12 +12,12 @@
             <span class="h6">Please try again later, or <b><a href="/sponsor-us">Contact Us</a></b> for sponsorship opportunities.</span>
             @break
         @case(2)
-            <span class="h6 red-text">{"error":"NO_SPONSORS_FOUND", "message":"Visit <a href="/sponsor-us">http://computerun.id/sponsor-us</a> to fix this issue."}</span>
+            <span class="h6 red-text">{"error":"NO_SPONSORS_FOUND", "message":"Oh, you've just found a bug! Want to sponsor our event too? Visit <a href="/sponsor-us">https://computerun.id/sponsor-us</a> for more details."}</span>
             @break
         @case(3)
             <span class="h6 red-text">
                 Unhandled <code>ArrayIndexOutOfBoundsException</code> error at <code>utils/SponsorsList.java</code><br>
-                Visit <a href="/sponsor-us">http://computerun.id/sponsor-us</a> to fix this issue.
+                Oh, you've just found a bug! Want to sponsor our event too? Visit <a href="/sponsor-us">https://computerun.id/sponsor-us</a> for more details.
             </span>
             @break
         @case(4)
@@ -26,7 +26,7 @@
                 Wah, daftar sponsornya kosong... <sup class="h6 font-400">(Yaaahhh...)</sup>
             </span><hr>
             <span class="h6">
-                Kalau ada yang mau bantu sponsor atau promosiin <b>COMPUTERUN</b>,<br>jangan lupa klik <a href="/sponsor-us">www.computerun.id/sponsor-us</a> biar acaranya makin seru!!!
+                Kalau ada yang mau bantu sponsor atau promosiin <b>COMPUTERUN</b>,<br>jangan lupa klik <a href="/sponsor-us">https://computerun.id/sponsor-us</a> biar acaranya makin seru!!!
             </span>
             @break
         @case(5)

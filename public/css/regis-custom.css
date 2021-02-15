@@ -1,0 +1,53 @@
+@import url("/fonts/fonts.css");
+
+.regis-header{
+    background: none;
+    margin-right: 0; /* Fixing weird layout bug on iOS devices */
+}
+.regis-header h1{
+    font-family: Qanelas, Poppins, sans-serif;
+}
+@media screen and (max-width: 767px){
+    .regis-header{
+        background-size: 200px;
+        background-position: right -16px bottom -48px;
+        background-repeat: no-repeat;
+    }
+}
+.regis-footer{
+    background-image: url("/img/backgrounds/HomeBG-2a.png");
+    background-size: 300px;
+    background-position: right -32px bottom -96px;
+    background-repeat: no-repeat;
+    margin: 0; /* Fixing weird layout bug on iOS devices */
+}
+.regis-footer-logo{
+    width:100%;
+    max-width: 250px;
+    height:auto;
+}
+.regis-footer-tagline{
+    font-weight: bold;
+}
+.regis-footer-list{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+.regis-footer-list li a{
+    color: #ffffff;
+}
+.video-full{
+    width: 100%;
+    height: 500px;
+}
+@media screen and (max-width: 767px){
+    .video-full{
+        height: 300px;
+    }
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
